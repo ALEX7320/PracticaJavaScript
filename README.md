@@ -7,6 +7,7 @@ Se  ha desarrollado la página con fines educativos. Se ha enfocado el uso de lo
 * [Entorno de desarrollo](#entorno-de-desarrollo)
 * [Datos utilizados](#datos-utilizados)
 * [Previsualización](#previsualización)
+* [Consideración](#consideración)
 * [Versión](#versión)
 
 
@@ -118,6 +119,10 @@ productos_html = {
 Se ha desplegado el proyecto en GitHub
 https://alex7320.github.io/TiendaOnlineJs
 
+
+## Consideración
+
+> Imagenes extraídas de https://lexica.art
 
 ## Versión
 
