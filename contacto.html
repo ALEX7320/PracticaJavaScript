@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Contacto</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/personalizado.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark header_estilo">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Tienda Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Compras</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page content-->
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="fw-bolder mb-5">Contactanos</h1>
+
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+
+                <!-- Search widget-->
+                <form>
+                    <div class="mb-3">
+                        <label for="form_nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="form_nombre">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="form_correo" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="form_correo">
+                    </div>
+
+                    <div class="mb-3">
+
+                        <div class="input-group">
+                            <span class="input-group-text">Comentario</span>
+                            <textarea class="form-control" aria-label="With textarea" style="height: 10rem;"
+                                id="form_comentario"></textarea>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" id="boton_enviar_mensaje" class="btn btn-secondary">
+                        Enviar
+                    </button>
+
+                </form>
+            </div>
+
+
+            <div class="col-lg-8">
+                <!-- Post content-->
+                <article>
+
+                    <!-- Preview image figure-->
+                    <figure class="mb-4">
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.371458385911!2d-76.98439538499849!3d-12.1550945913952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b84113003ee7%3A0x1fd71e1502ba8da6!2sMall%20del%20Sur!5e0!3m2!1ses-419!2spe!4v1655073166731!5m2!1ses-419!2spe"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+
+                        </iframe>
+
+                    </figure>
+
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <!-- Post meta content-->
+                        <div class="text-muted fst-italic mb-2">
+                            Los Lirios, San Juan de Miraflores 1X0X60 - Mall del Sur
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Tienda Física
+                                al Cliente</a>
+
+                        </div>
+                        <!-- Post categories-->
+
+                    </header>
+                </article>
+
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- correo enviado -->
+    <div class="modal fade" id="modal_mensaje_html" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mensaje entregado</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="form_nombre_enviado" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="form_nombre_enviado" readonly>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="form_correo_enviado" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="form_correo_enviado" readonly>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Comentario</label>
+                            <textarea class="form-control" aria-label="With textarea" style="height: 5rem;"
+                                id="form_comentario_enviado" readonly></textarea>
+                        </div>
+
+                    </form>
+                    <div class="alert alert-success" role="alert">
+                        Mensaje enviado correctamente
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- correo error -->
+    <div class="modal fade" id="modal_error_html" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Error de envio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="alert alert-danger" role="alert">
+                        Por favor completar los datos correctamente.
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark footer_estilo">
+        <div class="container">
+            <p class="m-0 text-center text-white">Página no oficial con fines educativos puedes ver el código fuente en <a href="https://github.com/ALEX7320/TiendaOnlineaJs">GitHub</a> &copy;2023</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/contacto.js"></script>
+
+</body>
+
+</html>
