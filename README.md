@@ -123,6 +123,7 @@ https://alex7320.github.io/PracticaJavaScript
 ## Consideración
 
 > Imagenes extraídas de https://lexica.art
+
 > Se ha incrustado los vídeos de Isa Marcial https://www.youtube.com/IsaMarcial
 
 
