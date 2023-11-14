@@ -19,8 +19,6 @@ Se  ha desarrollado la página con fines educativos. Se ha enfocado el uso de lo
 
 ## Datos utilizados
 
-Utilizando imagenes de  `Google` en incrustando los vídeos de [Isa Marcial](https://www.youtube.com/IsaMarcial)
-
 
 ```javascript
 // LOS PRODUCTOS REGISTRADOS
@@ -125,6 +123,8 @@ https://alex7320.github.io/PracticaJavaScript
 ## Consideración
 
 > Imagenes extraídas de https://lexica.art
+> Se ha incrustado los vídeos de Isa Marcial https://www.youtube.com/IsaMarcial
+
 
 ## Versión
 
