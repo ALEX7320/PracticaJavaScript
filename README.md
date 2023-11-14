@@ -117,7 +117,9 @@ productos_html = {
 ## Previsualización
 
 Se ha desplegado el proyecto en GitHub
-https://alex7320.github.io/TiendaOnlineJs
+https://alex7320.github.io/PracticaJavaScript
+
+![](https://i.postimg.cc/NQ7x5MhQ/img1.png )
 
 
 ## Consideración
